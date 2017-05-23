@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_minha_conta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.vestibunerd.app.MinhaContaActivity"
+    tools:showIn="@layout/activity_minha_conta"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:text="Minha Conta"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="-10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/user"
+            android:id="@+id/edit_foto"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:hint="Apelido"
+            android:id="@+id/edit_apelido"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-15dp"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:id="@+id/edit_nome"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Sobrenome"
+        android:inputType="textPersonName"
+        android:id="@+id/edit_sobrenome"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:id="@+id/edit_senha"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edit_email"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Celular"
+        android:inputType="phone"
+        android:id="@+id/edit_celular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Forma de Pagamento"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/bandeiras"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="-20dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/ic_credit_card_black_24dp"/>
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:hint="Número do Cartão"
+            android:inputType="numberDecimal"
+            android:id="@+id/edit_numeroCartao"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="-13dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="85dp"
+            android:hint="Cód Seg"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:id="@+id/edit_numeroSeguranca"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:hint="Mês/Data"
+            android:textSize="12dp"
+            android:id="@+id/edit_data"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_date_range_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="abrirCalendario" />
+
+    </LinearLayout>
+
+</LinearLayout>

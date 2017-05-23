@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00592D</color>
+    <color name="colorPrimaryDark">#01331a</color>
+    <color name="colorAccent">#00592D</color>
+    <color name="link">#215379</color>
+    <color name="letraButton">#fff</color>
+    <color name="colorHint">#000</color>
+    <color name="colorButton">#00592D</color>
+    <color name="background_color">#ffffff</color>
+</resources>

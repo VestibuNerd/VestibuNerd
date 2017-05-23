@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VestibuNerd</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_minha_conta">MinhaContaActivity</string>
+    <string name="title_activity_vestibulares">VestibularesActivity</string>
+    <string name="title_activity_sobre">SobreActivity</string>
+    <string name="title_activity_perguntas_frequentes">PerguntasFrequentesActivity</string>
+    <string name="title_activity_detalhes_perguntas_frequentes">
+        DetalhesPerguntasFrequentesActivity
+    </string>
+    <string name="title_activity_detalhes_livro">DetalhesLivroActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

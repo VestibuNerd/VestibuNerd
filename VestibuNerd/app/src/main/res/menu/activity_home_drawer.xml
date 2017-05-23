@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fuvest"
+            android:icon="@drawable/book"
+            android:title="Fuvest"
+           />
+        <item
+            android:id="@+id/nav_unesp"
+            android:icon="@drawable/book"
+            android:title="Unesp"
+          />
+        <item
+            android:id="@+id/nav_minhaconta"
+            android:icon="@drawable/user2"
+            android:title="Minha Conta"
+         />
+        <item
+            android:id="@+id/nav_perguntasfrequentes"
+            android:icon="@drawable/perguntas"
+            android:title="Perguntas Frequentes"
+          />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/information"
+            android:title="Sobre"
+           />
+    </group>
+    <item android:title="Encerrar Sessão">
+        <menu>
+
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/logout2"
+                android:title="Sair"
+              />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.vestibunerd.app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.vestibunerd.app.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".MinhaContaActivity"
+            android:label="@string/title_activity_minha_conta"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.vestibunerd.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".VestibularesActivity"
+            android:label="@string/title_activity_vestibulares"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.vestibunerd.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".SobreActivity"
+            android:label="@string/title_activity_sobre"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.vestibunerd.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".PerguntasFrequentesActivity"
+            android:label="@string/title_activity_perguntas_frequentes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetalhesPerguntasFrequentesActivity"
+            android:label="@string/title_activity_detalhes_perguntas_frequentes"
+            android:parentActivityName=".PerguntasFrequentesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.vestibunerd.app.PerguntasFrequentesActivity" />
+        </activity>
+        <activity
+            android:name=".DetalhesLivroActivity"
+            android:label="@string/title_activity_detalhes_livro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".VestibularActivity"></activity>
+    </application>
+
+</manifest>
