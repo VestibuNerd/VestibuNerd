@@ -27,13 +27,10 @@ public class PerguntasFrequentesActivity extends AppCompatActivity {
 
 
         context = this;
-      lista_perguntas= (ListView) findViewById(R.id.lista_perguntas);
 
 
 
     }
 
-    public void abrirDetalhesPerguntasFreguentes(View view) {
-        Intent intent;
-    }
+
 }

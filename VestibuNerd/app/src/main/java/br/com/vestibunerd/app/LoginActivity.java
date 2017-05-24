@@ -38,9 +38,8 @@ public class LoginActivity extends AppCompatActivity {
     public void abrirTelaPrincipal(View view) {
 
 
-        apelido = edit_text_apelido.getText().toString();
-        senha = edit_text_senha.getText().toString();
-        new EfetuaLoginTask();
+        Intent intent = new Intent(context,HomeActivity.class);
+        startActivity(intent);
     }
 
     private class EfetuaLoginTask extends AsyncTask<Void,Void,Void>{

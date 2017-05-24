@@ -134,7 +134,7 @@ public class HomeActivity extends AppCompatActivity
 
     public void abrirTelaPerguntasFrequentes(MenuItem item) {
 
-        Intent intent = new Intent(context, PerguntasFrequentesActivity.class);
+        Intent intent = new Intent (context, PerguntasFrequentesActivity.class);
         startActivity(intent);
     }
 

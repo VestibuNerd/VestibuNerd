@@ -6,6 +6,7 @@
             android:id="@+id/nav_fuvest"
             android:icon="@drawable/book"
             android:title="Fuvest"
+            android:onClick="abrirTelaVestibular"
            />
         <item
             android:id="@+id/nav_unesp"
@@ -21,6 +22,7 @@
             android:id="@+id/nav_perguntasfrequentes"
             android:icon="@drawable/perguntas"
             android:title="Perguntas Frequentes"
+            android:onClick="abrirTelaPerguntasFrequentes"
           />
         <item
             android:id="@+id/nav_sobre"
